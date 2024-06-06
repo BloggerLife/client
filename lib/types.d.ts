@@ -37,7 +37,7 @@ type OrderType = {
 };
 
 type OrderItemType = {
-  product: ProductType;
+  name: string;
   color: string;
   size: string;
   quantity: number;

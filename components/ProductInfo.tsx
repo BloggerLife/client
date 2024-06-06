@@ -95,6 +95,7 @@ const ProductInfo = ({ productInfo }: { productInfo: ProductType }) => {
           cart.addItem({
             item: productInfo,
             quantity,
+            name: productInfo.title,
             color: selectedColor,
             size: selectedSize,
           });
